@@ -13,3 +13,8 @@ Text Domain: imaginebusiness
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+.bkg-grey-ultralight {
+  background-color: #007ACE;
+  border-color: #007ACE;
+}

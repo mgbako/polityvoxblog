@@ -14,7 +14,7 @@ function wpb_theme_setup()
   
   // Nav menus
   register_nav_menus(array(
-    'primary' => __('Primary Menu', 'connectblog')
+    'primary' => __('Primary Menu', 'polityvoxblog')
   ));
 }
 
