@@ -10,10 +10,6 @@
               <div class="title-container">
                 <div class="title-container-inner center">
                   <h1 class="title-xlarge font-alt-2 weight-light mb-0 title"><?php the_title(); ?></h1>
-                  <div class="post-meta mt-20">
-                    <span class="post-date"><?php the_time('F j, Y g:i a'); ?></span>
-                  </div>
-                  <span class="post-cat"><a href="#"><?php single_cat_title(); ?></a></span>
                 </div>
               </div>
             </div>
@@ -44,28 +40,9 @@
               <!-- PAGEBODY -->
               <section id="page-body">            
                 <div id="blog-single">
-                  <?php if(has_post_thumbnail()) :?>
-                    <div class="blog-media">
-                      <a href="<?php the_permalink(); ?>" class="thumb-hover scale">
-                        <?php the_post_thumbnail(); ?>
-                      </a>
-                    </div>
-                  <?php endif; ?>
                   <div class="blog-content wrapper-small mt-20">
                     <?php the_content(); ?>
                   </div>
-                                      
-                  <div class="wrapper-small">      
-                    <div class="spacer-big"></div>   
-                              
-                    <!-- LEAVE COMMENT -->
-                    <div id="blog-leavecomment" class="leavecomment">                    
-                      <?php comments_template(); ?>
-                    </div> 
-                    <!-- END #blog-leavecomment -->   
-                    <!-- LEAVE COMMENT -->
-                    
-                  </div> <!-- END .wrapper-small -->
                 </div>
               </section>
               <!-- PAGEBODY -->
@@ -78,7 +55,7 @@
         </div>
       <?php endwhile; ?>
     <?php else : ?>
-      <p> <?php __('No Posts Found'); ?> </p>
+      <p> <?php __('No Page Found'); ?> </p>
     <?php endif;?>
   </div>
 

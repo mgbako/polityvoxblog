@@ -69,23 +69,6 @@
 </div>
 <!-- Content Inner End -->
 
-<!-- Pagination Section 3 -->
-<div class="section-block pagination-3 no-padding-top">
-  <div class="row">
-    <div class="column width-12">
-      <ul>
-        <li><a class="pagination-previous icon-left-open" href="#"><span class="icon-left-open-mini"></span></a></li>
-        <li><a class="current" href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a class="pagination-next disabled" href="#"><span class="icon-right-open-mini"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-<!-- Pagination Section 3 End -->
-
 <!-- Search Modal End -->
 <div id="search-modal" class="hide">
   <div class="row">

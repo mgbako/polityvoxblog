@@ -12,7 +12,8 @@
 	<!-- Css -->
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/core.min.css" />
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/skin.css" />
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>/css/skin.css" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/skin.css" />
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
 
 
 	<!--[if lt IE 9]>
@@ -32,8 +33,8 @@
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
-									<a href="index.html"><img src="<?php bloginfo('template_url'); ?>images/logo-dark.png" alt="Warhol Logo" /></a>
-									<a href="index.html"><img src="<?php bloginfo('template_url'); ?>images/logo.png" alt="Warhol Logo" /></a>
+									<a href="http://polityvox.com/"><img src="<?php bloginfo('template_url'); ?>/images/logo-dark.png" alt="Warhol Logo" /></a>
+									<a href="http://polityvox.com/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Warhol Logo" /></a>
 								</div>
 							</div>
 							<nav class="navigation nav-block primary-navigation nav-right">
@@ -41,12 +42,7 @@
 							wp_nav_menu( array(
 									'theme_location'    => 'primary',
 									'depth'             => 2,
-									'container'         => 'div',
-									'container_class'   => 'collapse navbar-collapse',
-									'container_id'      => 'bs-example-navbar-collapse-1',
-									'menu_class'        => 'nav navbar-nav',
-									'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-									'walker'            => new WP_Bootstrap_Navwalker(),
+									'container'         => 'ul'
 							) );
 							?>
 							</nav>

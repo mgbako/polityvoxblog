@@ -18,3 +18,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
   background-color: #007ACE;
   border-color: #007ACE;
 }
+
+.bkg-grey-ultralight h1.title {
+  color: #fff !important;
+}
+
+.post-meta span {
+  color: #fff;
+}
